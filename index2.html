@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap"
+      rel="stylesheet"/>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>projek-css</title>
+</head>
+<body>
+    <header>
+      <div class="topnav">
+        <label class="active">About Bandung</label>
+        <div id="myLinks">
+          <a href="index.html">Home</a>
+          <a href="#sejarah">Sejarah</a>
+          <a href="#geografi">Geografi</a>
+          <a href="#wisata">Wisata</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+    <main>
+      <article id="sejarah" class="card">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          </div>
+          
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/bdg2.jpg" alt="bdg" class="d-block" style="width:100%">
+              <div class="carousel-caption">
+                <h3>Gedung Sate</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/bdg3.jpg" alt="bdg" class="d-block" style="width:100%">
+              <div class="carousel-caption">
+                <h3>Masjid Raya Al Jabbar</h3>
+              </div> 
+            </div>
+            <div class="carousel-item">
+              <img src="img/bdg4.jpg" alt="bdg" class="d-block" style="width:100%">
+              <div class="carousel-caption">
+                <h3>Pasupati Flyover</h3>
+              </div>  
+            </div>
+          </div>
+          
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        
+        <div id="sejarah" class="container-fluid mt-3">
+          <h3>Sejarah</h3>
+          <p>
+            Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh
+            lava Gunung Tangkuban Parahu yang lalu membentuk telaga. Legenda yang diceritakan oleh
+            orang-orang tua di Bandung mengatakan bahwa nama Bandung diambil dari sebuah kendaraan air
+            yang terdiri dari dua perahu yang diikat berdampingan yang disebut perahu bandung yang
+            digunakan oleh Bupati Bandung, R.A. Wiranatakusumah II, untuk melayari Ci Tarum dalam mencari
+            tempat kedudukan kabupaten yang baru untuk menggantikan ibu kota yang lama di Dayeuhkolot.
+          </p>
+
+          <p>
+            Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an Banda
+            Indung, yang merupakan kalimat sakral dan luhur karena mengandung nilai ajaran Sunda.
+            Nga-Bandung-an artinya menyaksikan atau bersaksi. Banda adalah segala sesuatu yang berada di
+            alam hidup yaitu di bumi dan atmosfer, baik makhluk hidup maupun benda mati. Sinonim dari
+            banda adalah harta. Indung berarti Ibu atau Bumi, disebut juga sebagai Ibu Pertiwi tempat
+            Banda berada.
+          </p>
+        </div>
+      </article>
+      <article id="geografi" class="card">
+        <iframe class="d-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56400419724!2d107.56075544356331!3d-6.9034423794030495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1710151873902!5m2!1sen!2sid" 
+          width="cover" 
+          height="400px" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <h3>Kondisi Geografi</h3>
+          <p>
+            Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan sebuah
+            mangkok raksasa, secara geografis kota ini terletak di tengah-tengah provinsi Jawa Barat,
+            serta berada pada ketinggian ±768 m di atas permukaan laut, dengan titik tertinggi di berada
+            di sebelah utara dengan ketinggian 1.050 meter di atas permukaan laut dan sebelah selatan
+            merupakan kawasan rendah dengan ketinggian 675 meter di atas permukaan laut.
+          </p>
+
+          <p>
+            Kota Bandung dialiri dua sungai utama, yaitu Sungai Cikapundung dan Sungai Citarum beserta
+            anak-anak sungainya yang pada umumnya mengalir ke arah selatan dan bertemu di Sungai Citarum.
+            Dengan kondisi yang demikian, Bandung selatan sangat rentan terhadap masalah banjir terutama
+            pada musim hujan.
+          </p>
+      </article>
+
+      
+      <article id="wisata" class="card">
+        <h2>Wisata</h2>
+        <p>
+          Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama dalam menikmati
+          liburan akhir pekan terutama dari masyarakat yang berasal dari Jakarta sekitarnya. Selain
+          menjadi kota wisata belanja, kota Bandung juga dikenal dengan sejumlah besar bangunan lama
+          berarsitektur peninggalan Belanda.
+        </p>
+
+        <section>
+          <h3>Kawah Putih</h3>
+          <img src="img/bdg5.jpg" class="featured-image">
+
+          <p>
+            Kawah Putih adalah sebuah tempat wisata di Jawa Barat yang terletak di Desa Alam Endah, Kecamatan Rancabali, Kabupaten Bandung Jawa Barat yang terletak di kaki Gunung Patuha. 
+            Kawah putih merupakan sebuah danau yang terbentuk dari letusan Gunung Patuha. 
+          </p>
+          <p>
+            Tanah yang bercampur belerang di sekitar kawah ini berwarna putih, 
+            lalu warna air yang berada di kawah ini berwarna putih kehijauan, 
+            yang unik dari kawah ini adalah airnya kadang berubah warna. 
+            Danau Kawah Putih sendiri berada pada ketinggian 2194 m tapi luas total Danau Kawah Putih 25 ha yang dipakai wisata 5 ha dan lokasi kawah sendiri 3 ha
+          </p>
+        </section>
+          
+        <section>
+          <h3>Tangkuban Perahu</h3>
+          <img src="img/bdg7.jpg" class="featured-image">
+          <p>
+            Gunung Tangkuban Parahu merupakan salah satu ikon wisata Jawa Barat. 
+            Secara administratif, gunung ini berada di Lembang, Kabupaten Bandung Barat dan Kabupaten Subang.
+          </p>
+          <p>
+            Berada di ketinggian 2.084 mdpl, Gunung Tangkuban Parahu memiliki kawah aktif yang menjadi daya tariknya, seperti Kawah Ratu, Kawah Upas, Kawah Baru dan Kawah Domas. 
+          </p>
+        </section>
+
+        <section>
+          <h3>Bunker Batujajar</h3>
+          <img src="img/bdg8.jpg" class="featured-image">
+          <p>
+            Bunker Batujajar sebuah situs bersejarah yang diperkirakan telah ada sejak masa penjajahan Belanda. 
+            Berdiri di tengah-tengah area hijau tepat di tepi waduk Saguling. 
+            Bunker pertahanan militer yang masih berdiri kokoh hingga saat ini. 
+            Meskipun warna catnya sudah memudar mengingat usia bangunannya sudah sangat tua.
+          </p>
+        </section>
+      </article>
+
+      <article id="form" class="card">
+        <h2>Berikan masukan dan saran untuk web kami</h2>
+        <form class="form-container">
+          <div class="form-group">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Masukkan nama...">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Masukkan email...">
+          </div>
+          <div class="form-group">
+            <label for="suggestion">Saran</label>
+            <textarea id="suggestion" name="suggestion" class="form-control" rows="4" placeholder="Masukkan saran Anda..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+      </article>
+      
+    </main>
+
+    <footer>
+      <p>Kelompok 3 &#169; 2024, Project CSS</p>
+  </footer>
+  <script src="javascript/nav-menu.js"></script>
+</body>
+</html>
